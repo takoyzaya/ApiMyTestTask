@@ -4,12 +4,12 @@ namespace ApiMyTestTask.Models
 {
     public class ElementBDModel
     {
-        public object good_id { get; set; }
+        public string good_id { get; set; }
 
-        public object good_name { get; set; }
+        public string good_name { get; set; }
 
-        public object group_id { get; set; }
+        public string group_id { get; set; }
 
-        public object group_name { get; set; }
+        public string group_name { get; set; }
     }
 }

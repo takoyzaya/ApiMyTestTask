@@ -46,7 +46,9 @@ namespace ApiMyTestTask
             {
                 endpoints.MapControllers();
             });
+
             app.UseDefaultFiles();
+
             app.UseStaticFiles();
         }
     }
